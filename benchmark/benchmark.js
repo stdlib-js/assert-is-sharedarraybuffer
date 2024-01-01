@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var hasSharedArrayBufferSupport = require( '@stdlib/assert-has-sharedarraybuffer-support' ); // eslint-disable-line id-length
 var isBoolean = require( '@stdlib/assert-is-boolean' ).isPrimitive;
 var Float32Array = require( '@stdlib/array-float32' );
