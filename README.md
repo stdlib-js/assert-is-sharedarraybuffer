@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-sharedarraybuffer/tags). For example,
+
+```javascript
 import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.0-esm/index.mjs';
 ```
 
@@ -95,7 +100,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
 import SharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@esm/index.mjs';
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.0-esm/index.mjs';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@esm/index.mjs';
 
 var bool;
 try {
