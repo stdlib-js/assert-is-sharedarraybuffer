@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@deno/mod.js';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.0-deno/mod.js';
 ```
 
 #### isSharedArrayBuffer( value )
@@ -90,7 +90,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
 import SharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@deno/mod.js';
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@deno/mod.js';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.0-deno/mod.js';
 
 var bool;
 try {
