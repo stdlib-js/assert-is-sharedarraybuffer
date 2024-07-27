@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-sharedarraybuffer/tags). For example,
+
+```javascript
 import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.2-deno/mod.js';
 ```
 
@@ -90,7 +95,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
 import SharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@deno/mod.js';
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.2-deno/mod.js';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@deno/mod.js';
 
 var bool;
 try {
