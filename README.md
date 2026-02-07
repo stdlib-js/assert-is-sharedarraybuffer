@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@esm/index.mjs';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.3-esm/index.mjs';
 ```
 
 #### isSharedArrayBuffer( value )
@@ -95,7 +95,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
 import SharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-shared-buffer@esm/index.mjs';
-import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@esm/index.mjs';
+import isSharedArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-sharedarraybuffer@v0.2.3-esm/index.mjs';
 
 var bool;
 try {
